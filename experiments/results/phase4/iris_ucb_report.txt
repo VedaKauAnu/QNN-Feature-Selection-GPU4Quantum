@@ -1,0 +1,39 @@
+======================================================================
+ADAPTIVE QNN RESEARCH REPORT
+======================================================================
+Generated: 2025-10-12 12:53:02
+
+SYSTEM CONFIGURATION
+----------------------------------------------------------------------
+Qubits: 4
+Layers: 2
+Learning Rate: 0.05
+Adaptation Strategy: ucb
+
+TRAINING SUMMARY
+----------------------------------------------------------------------
+Total Epochs: 30
+Total Time: 146.18s
+Avg Time/Epoch: 4.87s
+
+BEST CONFIGURATION
+----------------------------------------------------------------------
+Configuration: PCA+angle
+Mean Reward: 0.8125
+Times Selected: 5
+Std Dev: 0.0000
+
+ALL CONFIGURATIONS PERFORMANCE
+----------------------------------------------------------------------
+Configuration             Mean       Count    Std       
+----------------------------------------------------------------------
+PCA+angle                 0.8125     5        0.0000    
+Correlation+angle         0.7500     4        0.0000    
+MutualInfo+angle          0.7500     4        0.0000    
+Random+angle              0.6250     4        0.0000    
+Random+amplitude          0.5625     4        0.0000    
+PCA+amplitude             0.5000     3        0.0000    
+MutualInfo+amplitude      0.4375     3        0.0000    
+Correlation+amplitude     0.3125     3        0.0000    
+
+======================================================================
