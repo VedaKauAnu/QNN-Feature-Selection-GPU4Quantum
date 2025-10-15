@@ -11,7 +11,7 @@
 
 Instead of picking a fixed feature selection method and hoping for the best, this project introduces **adaptive quantum neural networks** that intelligently switch between different feature selection and encoding strategies in real-time.
 
-## The Problem We're Solving
+## The Problem I're Solving
 
 Current quantum devices are limited to ~8-16 useful qubits, but classical datasets have hundreds of features. Most quantum ML research uses static approaches:
 
@@ -19,7 +19,7 @@ Current quantum devices are limited to ~8-16 useful qubits, but classical datase
 - Select angle encoding for data representation
 - Train with fixed parameters throughout
 
-**Our approach is different.** These quantum neural networks adapt their strategy during training.
+**My approach is different.** These quantum neural networks adapt their strategy during training.
 
 ## What Makes This Special
 
@@ -72,7 +72,7 @@ Best configuration: Correlation+Amplitude (84% final accuracy)
 
 ## Results Preview
 
-Our adaptive approach consistently outperforms static methods:
+My adaptive approach consistently outperforms static methods:
 
 - **Wine Dataset**: 84% vs 76% (static best)
 - **Breast Cancer**: 91% vs 87% (static best)  
@@ -100,7 +100,7 @@ This work addresses critical gaps in NISQ-era quantum machine learning:
 
 ## Contributing
 
-We welcome contributions! Key areas for development:
+I humbly welcome contributions! Key areas for development:
 
 - New adaptation strategies (Thompson sampling, genetic algorithms)
 - Additional datasets and benchmarks  
