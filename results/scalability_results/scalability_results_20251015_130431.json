@@ -1,0 +1,722 @@
+[
+  {
+    "n_qubits": 8,
+    "noise_level": "none",
+    "trial": 1,
+    "train_acc": 0.47738693467336685,
+    "val_acc": 0.4444444444444444,
+    "gate_count": 72,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.0,
+      "two_qubit_error": 0.0,
+      "measurement_error": 0.0,
+      "description": "No noise (ideal)"
+    }
+  },
+  {
+    "n_qubits": 8,
+    "noise_level": "none",
+    "trial": 2,
+    "train_acc": 0.47738693467336685,
+    "val_acc": 0.5029239766081871,
+    "gate_count": 72,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.0,
+      "two_qubit_error": 0.0,
+      "measurement_error": 0.0,
+      "description": "No noise (ideal)"
+    }
+  },
+  {
+    "n_qubits": 8,
+    "noise_level": "none",
+    "trial": 3,
+    "train_acc": 0.49246231155778897,
+    "val_acc": 0.4502923976608187,
+    "gate_count": 72,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.0,
+      "two_qubit_error": 0.0,
+      "measurement_error": 0.0,
+      "description": "No noise (ideal)"
+    }
+  },
+  {
+    "n_qubits": 8,
+    "noise_level": "low",
+    "trial": 1,
+    "train_acc": 0.4648241206030151,
+    "val_acc": 0.5497076023391813,
+    "gate_count": 72,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.0005,
+      "two_qubit_error": 0.001,
+      "measurement_error": 0.001,
+      "description": "Low noise"
+    }
+  },
+  {
+    "n_qubits": 8,
+    "noise_level": "low",
+    "trial": 2,
+    "train_acc": 0.45226130653266333,
+    "val_acc": 0.5380116959064327,
+    "gate_count": 72,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.0005,
+      "two_qubit_error": 0.001,
+      "measurement_error": 0.001,
+      "description": "Low noise"
+    }
+  },
+  {
+    "n_qubits": 8,
+    "noise_level": "low",
+    "trial": 3,
+    "train_acc": 0.4748743718592965,
+    "val_acc": 0.4444444444444444,
+    "gate_count": 72,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.0005,
+      "two_qubit_error": 0.001,
+      "measurement_error": 0.001,
+      "description": "Low noise"
+    }
+  },
+  {
+    "n_qubits": 8,
+    "noise_level": "realistic",
+    "trial": 1,
+    "train_acc": 0.45979899497487436,
+    "val_acc": 0.4678362573099415,
+    "gate_count": 72,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.01,
+      "two_qubit_error": 0.015,
+      "measurement_error": 0.02,
+      "description": "Realistic NISQ"
+    }
+  },
+  {
+    "n_qubits": 8,
+    "noise_level": "realistic",
+    "trial": 2,
+    "train_acc": 0.48743718592964824,
+    "val_acc": 0.52046783625731,
+    "gate_count": 72,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.01,
+      "two_qubit_error": 0.015,
+      "measurement_error": 0.02,
+      "description": "Realistic NISQ"
+    }
+  },
+  {
+    "n_qubits": 8,
+    "noise_level": "realistic",
+    "trial": 3,
+    "train_acc": 0.4798994974874372,
+    "val_acc": 0.4327485380116959,
+    "gate_count": 72,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.01,
+      "two_qubit_error": 0.015,
+      "measurement_error": 0.02,
+      "description": "Realistic NISQ"
+    }
+  },
+  {
+    "n_qubits": 8,
+    "noise_level": "high",
+    "trial": 1,
+    "train_acc": 0.4396984924623116,
+    "val_acc": 0.5087719298245614,
+    "gate_count": 72,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.02,
+      "two_qubit_error": 0.03,
+      "measurement_error": 0.04,
+      "description": "High noise"
+    }
+  },
+  {
+    "n_qubits": 8,
+    "noise_level": "high",
+    "trial": 2,
+    "train_acc": 0.4723618090452261,
+    "val_acc": 0.5029239766081871,
+    "gate_count": 72,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.02,
+      "two_qubit_error": 0.03,
+      "measurement_error": 0.04,
+      "description": "High noise"
+    }
+  },
+  {
+    "n_qubits": 8,
+    "noise_level": "high",
+    "trial": 3,
+    "train_acc": 0.4949748743718593,
+    "val_acc": 0.43859649122807015,
+    "gate_count": 72,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.02,
+      "two_qubit_error": 0.03,
+      "measurement_error": 0.04,
+      "description": "High noise"
+    }
+  },
+  {
+    "n_qubits": 10,
+    "noise_level": "none",
+    "trial": 1,
+    "train_acc": 0.45226130653266333,
+    "val_acc": 0.4327485380116959,
+    "gate_count": 90,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.0,
+      "two_qubit_error": 0.0,
+      "measurement_error": 0.0,
+      "description": "No noise (ideal)"
+    }
+  },
+  {
+    "n_qubits": 10,
+    "noise_level": "none",
+    "trial": 2,
+    "train_acc": 0.4798994974874372,
+    "val_acc": 0.5672514619883041,
+    "gate_count": 90,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.0,
+      "two_qubit_error": 0.0,
+      "measurement_error": 0.0,
+      "description": "No noise (ideal)"
+    }
+  },
+  {
+    "n_qubits": 10,
+    "noise_level": "none",
+    "trial": 3,
+    "train_acc": 0.5150753768844221,
+    "val_acc": 0.4853801169590643,
+    "gate_count": 90,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.0,
+      "two_qubit_error": 0.0,
+      "measurement_error": 0.0,
+      "description": "No noise (ideal)"
+    }
+  },
+  {
+    "n_qubits": 10,
+    "noise_level": "low",
+    "trial": 1,
+    "train_acc": 0.46984924623115576,
+    "val_acc": 0.4502923976608187,
+    "gate_count": 90,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.0005,
+      "two_qubit_error": 0.001,
+      "measurement_error": 0.001,
+      "description": "Low noise"
+    }
+  },
+  {
+    "n_qubits": 10,
+    "noise_level": "low",
+    "trial": 2,
+    "train_acc": 0.4748743718592965,
+    "val_acc": 0.5087719298245614,
+    "gate_count": 90,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.0005,
+      "two_qubit_error": 0.001,
+      "measurement_error": 0.001,
+      "description": "Low noise"
+    }
+  },
+  {
+    "n_qubits": 10,
+    "noise_level": "low",
+    "trial": 3,
+    "train_acc": 0.4824120603015075,
+    "val_acc": 0.49707602339181284,
+    "gate_count": 90,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.0005,
+      "two_qubit_error": 0.001,
+      "measurement_error": 0.001,
+      "description": "Low noise"
+    }
+  },
+  {
+    "n_qubits": 10,
+    "noise_level": "realistic",
+    "trial": 1,
+    "train_acc": 0.4798994974874372,
+    "val_acc": 0.49122807017543857,
+    "gate_count": 90,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.01,
+      "two_qubit_error": 0.015,
+      "measurement_error": 0.02,
+      "description": "Realistic NISQ"
+    }
+  },
+  {
+    "n_qubits": 10,
+    "noise_level": "realistic",
+    "trial": 2,
+    "train_acc": 0.44472361809045224,
+    "val_acc": 0.5321637426900585,
+    "gate_count": 90,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.01,
+      "two_qubit_error": 0.015,
+      "measurement_error": 0.02,
+      "description": "Realistic NISQ"
+    }
+  },
+  {
+    "n_qubits": 10,
+    "noise_level": "realistic",
+    "trial": 3,
+    "train_acc": 0.47738693467336685,
+    "val_acc": 0.4619883040935672,
+    "gate_count": 90,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.01,
+      "two_qubit_error": 0.015,
+      "measurement_error": 0.02,
+      "description": "Realistic NISQ"
+    }
+  },
+  {
+    "n_qubits": 10,
+    "noise_level": "high",
+    "trial": 1,
+    "train_acc": 0.46733668341708545,
+    "val_acc": 0.5087719298245614,
+    "gate_count": 90,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.02,
+      "two_qubit_error": 0.03,
+      "measurement_error": 0.04,
+      "description": "High noise"
+    }
+  },
+  {
+    "n_qubits": 10,
+    "noise_level": "high",
+    "trial": 2,
+    "train_acc": 0.4296482412060301,
+    "val_acc": 0.5146198830409356,
+    "gate_count": 90,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.02,
+      "two_qubit_error": 0.03,
+      "measurement_error": 0.04,
+      "description": "High noise"
+    }
+  },
+  {
+    "n_qubits": 10,
+    "noise_level": "high",
+    "trial": 3,
+    "train_acc": 0.46733668341708545,
+    "val_acc": 0.4619883040935672,
+    "gate_count": 90,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.02,
+      "two_qubit_error": 0.03,
+      "measurement_error": 0.04,
+      "description": "High noise"
+    }
+  },
+  {
+    "n_qubits": 12,
+    "noise_level": "none",
+    "trial": 1,
+    "train_acc": 0.4723618090452261,
+    "val_acc": 0.49707602339181284,
+    "gate_count": 108,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.0,
+      "two_qubit_error": 0.0,
+      "measurement_error": 0.0,
+      "description": "No noise (ideal)"
+    }
+  },
+  {
+    "n_qubits": 12,
+    "noise_level": "none",
+    "trial": 2,
+    "train_acc": 0.46984924623115576,
+    "val_acc": 0.5263157894736842,
+    "gate_count": 108,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.0,
+      "two_qubit_error": 0.0,
+      "measurement_error": 0.0,
+      "description": "No noise (ideal)"
+    }
+  },
+  {
+    "n_qubits": 12,
+    "noise_level": "none",
+    "trial": 3,
+    "train_acc": 0.45979899497487436,
+    "val_acc": 0.47953216374269003,
+    "gate_count": 108,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.0,
+      "two_qubit_error": 0.0,
+      "measurement_error": 0.0,
+      "description": "No noise (ideal)"
+    }
+  },
+  {
+    "n_qubits": 12,
+    "noise_level": "low",
+    "trial": 1,
+    "train_acc": 0.4899497487437186,
+    "val_acc": 0.5321637426900585,
+    "gate_count": 108,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.0005,
+      "two_qubit_error": 0.001,
+      "measurement_error": 0.001,
+      "description": "Low noise"
+    }
+  },
+  {
+    "n_qubits": 12,
+    "noise_level": "low",
+    "trial": 2,
+    "train_acc": 0.46733668341708545,
+    "val_acc": 0.5263157894736842,
+    "gate_count": 108,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.0005,
+      "two_qubit_error": 0.001,
+      "measurement_error": 0.001,
+      "description": "Low noise"
+    }
+  },
+  {
+    "n_qubits": 12,
+    "noise_level": "low",
+    "trial": 3,
+    "train_acc": 0.44221105527638194,
+    "val_acc": 0.5087719298245614,
+    "gate_count": 108,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.0005,
+      "two_qubit_error": 0.001,
+      "measurement_error": 0.001,
+      "description": "Low noise"
+    }
+  },
+  {
+    "n_qubits": 12,
+    "noise_level": "realistic",
+    "trial": 1,
+    "train_acc": 0.45226130653266333,
+    "val_acc": 0.4678362573099415,
+    "gate_count": 108,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.01,
+      "two_qubit_error": 0.015,
+      "measurement_error": 0.02,
+      "description": "Realistic NISQ"
+    }
+  },
+  {
+    "n_qubits": 12,
+    "noise_level": "realistic",
+    "trial": 2,
+    "train_acc": 0.46984924623115576,
+    "val_acc": 0.5029239766081871,
+    "gate_count": 108,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.01,
+      "two_qubit_error": 0.015,
+      "measurement_error": 0.02,
+      "description": "Realistic NISQ"
+    }
+  },
+  {
+    "n_qubits": 12,
+    "noise_level": "realistic",
+    "trial": 3,
+    "train_acc": 0.4748743718592965,
+    "val_acc": 0.4327485380116959,
+    "gate_count": 108,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.01,
+      "two_qubit_error": 0.015,
+      "measurement_error": 0.02,
+      "description": "Realistic NISQ"
+    }
+  },
+  {
+    "n_qubits": 12,
+    "noise_level": "high",
+    "trial": 1,
+    "train_acc": 0.46984924623115576,
+    "val_acc": 0.47953216374269003,
+    "gate_count": 108,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.02,
+      "two_qubit_error": 0.03,
+      "measurement_error": 0.04,
+      "description": "High noise"
+    }
+  },
+  {
+    "n_qubits": 12,
+    "noise_level": "high",
+    "trial": 2,
+    "train_acc": 0.44472361809045224,
+    "val_acc": 0.52046783625731,
+    "gate_count": 108,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.02,
+      "two_qubit_error": 0.03,
+      "measurement_error": 0.04,
+      "description": "High noise"
+    }
+  },
+  {
+    "n_qubits": 12,
+    "noise_level": "high",
+    "trial": 3,
+    "train_acc": 0.4472361809045226,
+    "val_acc": 0.47953216374269003,
+    "gate_count": 108,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.02,
+      "two_qubit_error": 0.03,
+      "measurement_error": 0.04,
+      "description": "High noise"
+    }
+  },
+  {
+    "n_qubits": 16,
+    "noise_level": "none",
+    "trial": 1,
+    "train_acc": 0.49246231155778897,
+    "val_acc": 0.45614035087719296,
+    "gate_count": 144,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.0,
+      "two_qubit_error": 0.0,
+      "measurement_error": 0.0,
+      "description": "No noise (ideal)"
+    }
+  },
+  {
+    "n_qubits": 16,
+    "noise_level": "none",
+    "trial": 2,
+    "train_acc": 0.4648241206030151,
+    "val_acc": 0.49122807017543857,
+    "gate_count": 144,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.0,
+      "two_qubit_error": 0.0,
+      "measurement_error": 0.0,
+      "description": "No noise (ideal)"
+    }
+  },
+  {
+    "n_qubits": 16,
+    "noise_level": "none",
+    "trial": 3,
+    "train_acc": 0.46984924623115576,
+    "val_acc": 0.47953216374269003,
+    "gate_count": 144,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.0,
+      "two_qubit_error": 0.0,
+      "measurement_error": 0.0,
+      "description": "No noise (ideal)"
+    }
+  },
+  {
+    "n_qubits": 16,
+    "noise_level": "low",
+    "trial": 1,
+    "train_acc": 0.4899497487437186,
+    "val_acc": 0.47368421052631576,
+    "gate_count": 144,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.0005,
+      "two_qubit_error": 0.001,
+      "measurement_error": 0.001,
+      "description": "Low noise"
+    }
+  },
+  {
+    "n_qubits": 16,
+    "noise_level": "low",
+    "trial": 2,
+    "train_acc": 0.457286432160804,
+    "val_acc": 0.5321637426900585,
+    "gate_count": 144,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.0005,
+      "two_qubit_error": 0.001,
+      "measurement_error": 0.001,
+      "description": "Low noise"
+    }
+  },
+  {
+    "n_qubits": 16,
+    "noise_level": "low",
+    "trial": 3,
+    "train_acc": 0.4648241206030151,
+    "val_acc": 0.43859649122807015,
+    "gate_count": 144,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.0005,
+      "two_qubit_error": 0.001,
+      "measurement_error": 0.001,
+      "description": "Low noise"
+    }
+  },
+  {
+    "n_qubits": 16,
+    "noise_level": "realistic",
+    "trial": 1,
+    "train_acc": 0.4798994974874372,
+    "val_acc": 0.5029239766081871,
+    "gate_count": 144,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.01,
+      "two_qubit_error": 0.015,
+      "measurement_error": 0.02,
+      "description": "Realistic NISQ"
+    }
+  },
+  {
+    "n_qubits": 16,
+    "noise_level": "realistic",
+    "trial": 2,
+    "train_acc": 0.4623115577889447,
+    "val_acc": 0.5146198830409356,
+    "gate_count": 144,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.01,
+      "two_qubit_error": 0.015,
+      "measurement_error": 0.02,
+      "description": "Realistic NISQ"
+    }
+  },
+  {
+    "n_qubits": 16,
+    "noise_level": "realistic",
+    "trial": 3,
+    "train_acc": 0.457286432160804,
+    "val_acc": 0.49122807017543857,
+    "gate_count": 144,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.01,
+      "two_qubit_error": 0.015,
+      "measurement_error": 0.02,
+      "description": "Realistic NISQ"
+    }
+  },
+  {
+    "n_qubits": 16,
+    "noise_level": "high",
+    "trial": 1,
+    "train_acc": 0.45979899497487436,
+    "val_acc": 0.5029239766081871,
+    "gate_count": 144,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.02,
+      "two_qubit_error": 0.03,
+      "measurement_error": 0.04,
+      "description": "High noise"
+    }
+  },
+  {
+    "n_qubits": 16,
+    "noise_level": "high",
+    "trial": 2,
+    "train_acc": 0.4472361809045226,
+    "val_acc": 0.5321637426900585,
+    "gate_count": 144,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.02,
+      "two_qubit_error": 0.03,
+      "measurement_error": 0.04,
+      "description": "High noise"
+    }
+  },
+  {
+    "n_qubits": 16,
+    "noise_level": "high",
+    "trial": 3,
+    "train_acc": 0.507537688442211,
+    "val_acc": 0.47953216374269003,
+    "gate_count": 144,
+    "circuit_depth": 0,
+    "noise_params": {
+      "single_qubit_error": 0.02,
+      "two_qubit_error": 0.03,
+      "measurement_error": 0.04,
+      "description": "High noise"
+    }
+  }
+]
