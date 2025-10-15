@@ -30,7 +30,7 @@ class Config:
     N_QUBITS = 10
     N_LAYERS = 2
     LEARNING_RATE = 0.01
-    N_EPOCHS = 50
+    N_EPOCHS = 30
     BATCH_SIZE = 16
     
     # Adaptive strategy parameters
