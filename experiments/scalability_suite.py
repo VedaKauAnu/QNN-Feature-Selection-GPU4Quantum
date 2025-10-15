@@ -36,7 +36,7 @@ class ScalabilityConfig:
     """Configuration for scalability experiments"""
     
     # Qubit counts to test (limited by simulation capacity)
-    QUBIT_COUNTS = [4, 6, 8, 10, 12]
+    QUBIT_COUNTS = [4, 6, 8, 10, 12, 16]
     
     # Noise levels to test
     NOISE_LEVELS = {
