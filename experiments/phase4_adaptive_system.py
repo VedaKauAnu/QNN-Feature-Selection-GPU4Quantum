@@ -1,10 +1,7 @@
 """
 Phase 4: Complete Adaptive Quantum Neural Network System
 Integrates all components: Data → Feature Selection → Encoding → QNN → Adaptation
-
-This is the NOVEL RESEARCH CONTRIBUTION!
 """
-
 import sys
 import os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
@@ -38,7 +35,7 @@ class AdaptiveQNN:
     """
     Complete Adaptive Quantum Neural Network System
     
-    Novel Architecture:
+    Architecture:
     1. Adaptive controller selects (feature_selector, encoder) configuration
     2. Feature selector reduces dimensionality: ℝ^d → ℝ^{n_q}
     3. Quantum encoder maps to Hilbert space: ℝ^{n_q} → ℂ^{2^{n_q}}
