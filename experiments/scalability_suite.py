@@ -7,6 +7,8 @@ This script runs comprehensive experiments demonstrating:
 2. Scaling trends for extrapolation (Pillar 2)
 3. Circuit complexity analysis (Pillar 3)
 4. Comparative results (Pillar 4)
+
+Made with Claude
 """
 
 import numpy as np
@@ -28,9 +30,8 @@ except ImportError:
     print("⚠️  Make sure noisy_10q_experiment.py is in the same directory!")
     sys.exit(1)
 
-# ============================================================================
+
 # SCALABILITY CONFIGURATION
-# ============================================================================
 
 class ScalabilityConfig:
     """Configuration for scalability experiments"""
@@ -83,9 +84,8 @@ class ScalabilityConfig:
 
 scal_config = ScalabilityConfig()
 
-# ============================================================================
+
 # PILLAR 1: NOISE CHARACTERIZATION
-# ============================================================================
 
 class NoiseCharacterization:
     """
@@ -248,9 +248,8 @@ class NoiseCharacterization:
         
         print("\n" + "="*70 + "\n")
 
-# ============================================================================
+
 # PILLAR 2: SCALING ANALYSIS & EXTRAPOLATION
-# ============================================================================
 
 class ScalingAnalysis:
     """
@@ -364,9 +363,8 @@ class ScalingAnalysis:
         
         return extrapolations
 
-# ============================================================================
+
 # PILLAR 3: CIRCUIT COMPLEXITY ANALYSIS
-# ============================================================================
 
 class CircuitComplexityAnalysis:
     """
@@ -431,9 +429,8 @@ class CircuitComplexityAnalysis:
         
         return complexity_data
 
-# ============================================================================
+
 # VISUALIZATION & REPORTING
-# ============================================================================
 
 class ScalabilityVisualizer:
     """Generate comprehensive scalability figures"""
@@ -749,9 +746,8 @@ class ScalabilityVisualizer:
         print(f"  ✓ Figure 3 saved: {filename}")
         plt.close()
 
-# ============================================================================
+
 # MAIN SCALABILITY SUITE RUNNER
-# ============================================================================
 
 def run_complete_scalability_suite():
     """Run all scalability experiments"""

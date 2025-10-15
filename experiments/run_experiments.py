@@ -2,10 +2,12 @@
 Master Experiment Runner
 Simple interface to run all scalability experiments
 
+Used Claude to generate
+
 Usage:
-    python run_experiments.py --mode quick     # Quick test (10 min)
-    python run_experiments.py --mode standard  # Standard run (2 hours)
-    python run_experiments.py --mode full      # Full suite (4 hours)
+    python run_experiments.py --mode quick     
+    python run_experiments.py --mode standard  
+    python run_experiments.py --mode full     
 """
 
 import argparse

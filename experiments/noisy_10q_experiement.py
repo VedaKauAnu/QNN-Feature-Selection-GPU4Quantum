@@ -1,9 +1,6 @@
 """
 Noisy 10-Qubit Adaptive QNN Experiment
 Demonstrates performance with realistic NISQ error rates (1-1.5%)
-
-This is the main experiment demonstrating your adaptive approach
-works under realistic noise conditions.
 """
 
 import numpy as np
@@ -22,9 +19,8 @@ import warnings
 import json
 warnings.filterwarnings('ignore')
 
-# ============================================================================
+
 # CONFIGURATION WITH REALISTIC NISQ NOISE
-# ============================================================================
 
 class NoisyConfig:
     """Experiment configuration with realistic NISQ noise parameters"""
@@ -62,9 +58,8 @@ class NoisyConfig:
 
 config = NoisyConfig()
 
-# ============================================================================
+
 # NOISY QUANTUM DEVICE
-# ============================================================================
 
 class NoisyDevice:
     """Quantum device with realistic NISQ noise"""
@@ -106,9 +101,8 @@ class NoisyDevice:
             for wire in (wires if isinstance(wires, list) else [wires]):
                 qml.BitFlip(self.noise_params['measurement_error'], wires=wire)
 
-# ============================================================================
+
 # NOISY QUANTUM NEURAL NETWORK
-# ============================================================================
 
 class NoisyQuantumNeuralNetwork:
     """QNN with realistic NISQ noise"""
@@ -175,9 +169,8 @@ class NoisyQuantumNeuralNetwork:
             for i in range(self.n_qubits):
                 self.device_manager.apply_single_qubit_noise(i)
         
-        # ────────────────────────────────────────────────────────────────
+        
         # Parameterized Layers
-        # ────────────────────────────────────────────────────────────────
         for layer in range(self.n_layers):
             # Single-qubit rotations
             for i in range(self.n_qubits):
@@ -206,9 +199,8 @@ class NoisyQuantumNeuralNetwork:
         self.gate_count = gate_count
         self.circuit_depth = self.n_layers * 4 + 1  # 3 rotations + 1 CNOT per layer + encoding
         
-        # ────────────────────────────────────────────────────────────────
+        
         # Measurement with noise
-        # ────────────────────────────────────────────────────────────────
         self.device_manager.apply_measurement_noise(0)
         return qml.expval(qml.PauliZ(0))
     
@@ -242,9 +234,8 @@ class NoisyQuantumNeuralNetwork:
         
         return self.compute_loss(X, y)
 
-# ============================================================================
-# FEATURE SELECTION (Same as before)
-# ============================================================================
+
+# FEATURE SELECTION
 
 class FeatureSelector:
     """Feature selection methods with padding"""
@@ -317,9 +308,8 @@ class FeatureSelector:
         
         return X_train_selected, X_test_selected
 
-# ============================================================================
+
 # DATA LOADER
-# ============================================================================
 
 class DataLoader:
     """Load and preprocess datasets"""
@@ -354,9 +344,8 @@ class DataLoader:
         X_test_scaled = scaler.transform(X_test)
         return X_train_scaled, X_test_scaled
 
-# ============================================================================
+
 # ADAPTIVE CONTROLLER
-# ============================================================================
 
 class AdaptiveController:
     """UCB-based adaptive configuration selection"""
@@ -423,9 +412,8 @@ class AdaptiveController:
                 })
         return sorted(stats, key=lambda x: x['mean_reward'], reverse=True)
 
-# ============================================================================
+
 # MAIN TRAINER
-# ============================================================================
 
 class NoisyAdaptiveQNNTrainer:
     """Main training pipeline with noise"""

@@ -1,9 +1,6 @@
 """
 Adaptive Quantum Neural Network with 10 Qubits
 Feature Selection + Encoding Method Optimization
-
-Author: Veda Anumala
-License: MIT
 """
 
 import numpy as np
@@ -21,9 +18,8 @@ from collections import defaultdict
 import warnings
 warnings.filterwarnings('ignore')
 
-# ============================================================================
+
 # CONFIGURATION
-# ============================================================================
 
 class Config:
     """Experiment configuration"""
@@ -52,9 +48,8 @@ class Config:
 
 config = Config()
 
-# ============================================================================
+
 # DATA LOADING AND PREPROCESSING
-# ============================================================================
 
 class DataLoader:
     """Load and preprocess datasets"""
@@ -97,9 +92,8 @@ class DataLoader:
         
         return X_train_scaled, X_test_scaled, y_train, y_test
 
-# ============================================================================
+
 # FEATURE SELECTION METHODS
-# ============================================================================
 
 class FeatureSelector:
     """Various feature selection methods"""
@@ -182,9 +176,8 @@ class FeatureSelector:
         
         return X_train_selected, X_test_selected
 
-# ============================================================================
+
 # QUANTUM ENCODING METHODS
-# ============================================================================
 
 class QuantumEncoder:
     """Encode classical data into quantum states"""
@@ -219,9 +212,8 @@ class QuantumEncoder:
         
         qml.AmplitudeEmbedding(normalized, wires=wires, normalize=True)
 
-# ============================================================================
+
 # QUANTUM NEURAL NETWORK
-# ============================================================================
 
 class QuantumNeuralNetwork:
     """Parameterized quantum circuit for classification"""
@@ -311,9 +303,8 @@ class QuantumNeuralNetwork:
         
         return self.compute_loss(X, y)
 
-# ============================================================================
+
 # ADAPTIVE CONTROLLER
-# ============================================================================
 
 class AdaptiveController:
     """Manages configuration selection using various strategies"""
@@ -418,9 +409,8 @@ class AdaptiveController:
         
         return sorted(stats, key=lambda x: x['mean_reward'], reverse=True)
 
-# ============================================================================
+
 # TRAINING PIPELINE
-# ============================================================================
 
 class AdaptiveQNNTrainer:
     """Main training pipeline"""
@@ -678,9 +668,8 @@ class AdaptiveQNNTrainer:
         
         plt.show()
 
-# ============================================================================
+
 # MAIN EXECUTION
-# ============================================================================
 
 if __name__ == "__main__":
     # Run experiment
