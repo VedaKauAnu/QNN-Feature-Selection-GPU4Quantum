@@ -45,17 +45,6 @@ adaptive_qnn = AdaptiveQNN(
 - **Systematic NISQ Benchmarking**: Comprehensive testing across 8-16 qubit ranges using NVIDIA simulation
 - **Open-Source Framework**: Complete implementation ready for community use and extension
 
-## Quick Start
-
-```bash
-# Install dependencies
-pip install pennylane pennylane-lightning-gpu cuquantum-python scikit-learn
-
-# Clone and run
-git clone https://github.com/yourusername/adaptive-qnn
-cd adaptive-qnn
-python experiments/run_adaptive_qnn.py --qubits 10 --dataset wine
-```
 
 **Expected Output:**
 ```
@@ -85,7 +74,6 @@ My adaptive approach consistently outperforms static methods:
 - **Multiple Adaptation Strategies**: UCB, epsilon-greedy, round-robin
 - **Flexible Quantum Encoding**: Angle, amplitude, and basis encoding
 - **Smart Feature Selection**: PCA, correlation analysis, mutual information
-- **GPU-Accelerated**: NVIDIA cuQuantum for fast simulation
 - **Rich Visualization**: Training curves, adaptation timelines, performance heatmaps
 - **Modular Design**: Easy to extend with new strategies or datasets
 
