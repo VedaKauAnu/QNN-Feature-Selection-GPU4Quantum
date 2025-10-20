@@ -11,11 +11,7 @@
 
 Instead of picking a fixed feature selection method and hoping for the best, this project introduces **adaptive quantum neural networks** that intelligently switch between different feature selection and encoding strategies in real-time.
 
-<<<<<<< HEAD
-## The Problem I're Solving
-=======
 ## The Problem I'm Solving
->>>>>>> refs/remotes/origin/main
 
 Current quantum devices are limited to ~8-16 useful qubits, but classical datasets have hundreds of features. Most quantum ML research uses static approaches:
 
